@@ -46,7 +46,8 @@ DATABASES = {
 
 # You should not change this setting after your database has been created
 # unless you have altered all schemas first
-SENTRY_USE_BIG_INTS = True
+#SENTRY_USE_BIG_INTS = True
+SENTRY_USE_BIG_INTS = False
 
 # If you're expecting any kind of real traffic on Sentry, we highly recommend
 # configuring the CACHES and Redis settings
